@@ -1,4 +1,5 @@
 #include <iostream> // #include <iostream> is a header file library that lets us work with input and output objects, such as cout.
+#include "selfMade.h"
 
 using namespace std; // using namespace std means that we can use names for objects and variables from the standard library.
 
@@ -28,6 +29,7 @@ int main() {
 	func("India");
 	func();
 	func("USA");
-	cout << add(5, 9);
+	cout << add(5, 9) << endl;
+	cout << selfMadeFunc(9) << endl;
 	return 0;
 }
